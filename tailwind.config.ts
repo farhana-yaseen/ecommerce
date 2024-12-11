@@ -11,7 +11,26 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        searchColor:"#F0F0F0",
+        rectangleColor:"#F2F0F1",
+        newArravialbg:" #F0EEED",
+        percentage: "#FF3333",
+        starColor: "#FFC633",
+        paymentLogo:"#D6DCE5",
       },
+
+      boxShadow:{
+        custom:'0px 0.45px 4.48px 0px rgba(183, 183, 183, 0.08)',
+      },
+      fontfamily:{
+        "figtree":["var(--font-figtree)"],
+        "fjalla":["var(--font-fjalla)"],
+      },
+      screens: {
+        'xs': '320px', // Custom screen size for 300px
+      },
+      
+     
     },
   },
   plugins: [],

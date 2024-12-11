@@ -34,7 +34,7 @@ const Rectangle2 = () => {
 
             {/* Button */}
             <div className="absolute py-4 lg:w-[210px] lg:top-[507px] lg:left-[100px] rounded-[62px] bg-black">
-              <h1 className="font-figtree font-medium text-base leading-[21.6px] text-white">Shop Now</h1>
+              <h1 className="font-figtree font-medium text-base leading-[21.6px] text-white text-center">Shop Now</h1>
             </div>
 
             <div>

@@ -7,7 +7,7 @@ const Mobile = () => {
     <div>
 
     
-    <div className="w-[390px] h-[853px] top-[98px] bg-rectangleColor relative">
+    <div className="w-[390px] h-[853px] bg-rectangleColor relative">
 
       <div className="flex flex-col justify-center space-y-8 mx-4">
         <div className="w-[315px] h-[93px] top-[138px] left-4 mt-10 ">

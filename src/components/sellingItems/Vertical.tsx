@@ -4,10 +4,10 @@ import { BsStarHalf } from "react-icons/bs";
 
 const Vertical = () => {
     return (
-        <div className="">
+        <div className="bg-yellow-400">
             {/* Striped Shirt */}
-            <div className="w-[198px] h-[20.01px] top-[1720px] left-4 lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px]">
-                <Image src={"/selling/vertical.png"} alt="Striped Shirt" width={296} height={444} className="w-[198.67px] h-[298px] mt-[-49px] left-[-0.67px] lg:w-[296px] lg:h-[444px] lg:mt-[-73px] lg:left-[-1px]  object-contain"></Image>
+            <div className="w-[198px] h-[20.01px] top-[1720px] ml-4 lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px] lg:mt-20 ">
+                <Image src={"/selling/vertical.png"} alt="Striped Shirt" width={296} height={444} className="w-[198.67px] h-[298px] top-[-49px] ml-[-0.67px] lg:w-full lg:h-full lg:mt-[-73px] lg:left-[-1px]  object-contain lg:rounded-[20px]"></Image>
             </div>
 
             <div className="w-[170px] h-[22px] top-[1930.01px] ml-4 lg:w-[200px] lg:h-[27px] lg:top-[2155px] lg:left-[100px]">

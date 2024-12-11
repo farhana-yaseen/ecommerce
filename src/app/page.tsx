@@ -12,7 +12,7 @@ export default function Home() {
       <div className="mt-40">
       <NewArrivals/>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 ">
       <TopSelling/>
       </div>
       <div className="py-16">

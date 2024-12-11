@@ -6,8 +6,8 @@ const Courage = () => {
   return (
     <div>
        {/* Graphic T-Shirt */}
-       <div className="w-[198px] h-[20.01px] top-[1720px] left-[230px] lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px]">
-                <Image src={"/selling/courage.png"} alt="Graphic T-Shirt" width={294} height={441} className="w-[197px] h-[294px] top-[-47px] lg:w-[294px] lg:h-[441px] lg:mt-[-71px] lg:left-[1px]  object-contain"></Image>
+       <div className="w-[198px] h-[20.01px] top-[1720px] left-[230px] lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px] mt-20">
+                <Image src={"/selling/courage.png"} alt="Graphic T-Shirt" width={294} height={441} className="w-[197px] h-[294px] top-[-47px] lg:w-full lg:h-full lg:mt-[-71px] lg:left-[1px]  object-contain lg:rounded-[20px]"></Image>
             </div>
 
             <div className="w-[186px] h-[22px] top-[1930.01px] left-[230px] lg:w-[240px] lg:h-[27px] lg:top-[2155px] lg:left-[415px]">

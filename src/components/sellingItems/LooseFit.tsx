@@ -7,7 +7,7 @@ const LooseFit = () => {
     <div className="hidden lg:block">
        {/* Loose Fit Shorts */}
        <div className="w-[295px] h-[298px] top-[1841px] left-[730px] rounded-[20px]">
-                <Image src={"/selling/loose.png"} alt="Graphic T-Shirt" width={296} height={441} className="top-[-73px] object-contain rounded-[20px]"></Image>
+                <Image src={"/selling/loose.png"} alt="Graphic T-Shirt" width={296} height={441} className="lg:w-full lg:h-full top-[-73px] object-contain rounded-[20px]"></Image>
             </div>
 
             <div className="w-[260px] h-[27px] top-[2155px] left-[730px]">

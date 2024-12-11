@@ -6,8 +6,8 @@ const Faded = () => {
   return (
     <div className="hidden lg:block">
        {/* Faded Skinny */}
-       <div className="w-[295px] h-[298px] top-[1841px] left-[1045px] bg-newArravialbg rounded-[20px] ">
-                <Image src={"/selling/faded.png"} alt="Faded Skinny" width={252} height={378} className="top-[-40px] left-[22px] object-cover rounded-[20px]"></Image>
+       <div className="w-[295px] h-[298px] top-[1841px] left-[1045px] bg-newArravialbg rounded-[20px]">
+                <Image src={"/selling/faded.png"} alt="Faded Skinny" width={252} height={378} className="lg:w-full lg:h-full top-[-40px] left-[22px] object-contain"></Image>
             </div>
 
             <div className="w-[200px] h-[27px] top-[2155px] left-[1045px]">

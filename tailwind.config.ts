@@ -17,6 +17,7 @@ const config: Config = {
         percentage: "#FF3333",
         starColor: "#FFC633",
         paymentLogo:"#D6DCE5",
+        discountRate:"#FF3333",
       },
 
       boxShadow:{
@@ -26,10 +27,7 @@ const config: Config = {
         "figtree":["var(--font-figtree)"],
         "fjalla":["var(--font-fjalla)"],
       },
-      screens: {
-        'xs': '320px', // Custom screen size for 300px
-      },
-      
+           
      
     },
   },

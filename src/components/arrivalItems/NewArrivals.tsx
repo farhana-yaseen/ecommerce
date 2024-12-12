@@ -1,21 +1,21 @@
 
 import CheckShirt from "./CheckShirt"
-import Paint from "./Paint"
 import Sleeve from "./Sleeve"
 import Tshirt from "./Tshirt"
 import ViewAll from "../ViewAll"
+import Jeans from "./Jeans"
 
 
 const NewArrivals = () => {
   return (
-    <div>
-      <div className="w-[269px] h-[38px] top-[114px] ml-[61px] lg:w-[403px] lg:h-[58px] lg:top-[991px] lg:left-[518px] py-5">
+    <div className="pt-48">
+      <div className="w-[269px] h-[38px] top-[114px] ml-[61px] lg:w-[403px] lg:h-[58px] lg:top-[991px] lg:ml-[518px] flex">
          <h1 className="font-fjalla font-bold  text-[32px] lg:text-5xl leading-[38.4px] lg:leading-[57.6px] text-center uppercase">new arrivals</h1>
       </div>
 
          <div className="flex justify-between items-center gap-4 lg:justify-center lg:gap-10 py-10">
           <Tshirt/>
-          <Paint/>
+          <Jeans/>
           <CheckShirt/>
           <Sleeve/>
          </div>

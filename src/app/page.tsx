@@ -7,15 +7,15 @@ import HappyCustomers from "@/components/HappyCustomers";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="w-full h-full lg:w-full lg:h-full">
       <Rectangle2 />
-      <div className="mt-40">
+      <div className="">
       <NewArrivals/>
       </div>
-      <div className="mt-10 ">
+      <div className="">
       <TopSelling/>
       </div>
-      <div className="py-16">
+      <div className="">
       <DressStyle/>
       </div>
       <HappyCustomers/>

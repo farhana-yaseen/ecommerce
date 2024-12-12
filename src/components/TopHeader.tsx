@@ -3,7 +3,7 @@ import { IoMdClose,} from "react-icons/io"
 
 const TopHeader = () => {
   return (
-    <div className="w-[390px] h-[34px] gap-[10px] lg:w-[1440px] lg:h-[38px] bg-black flex items-center justify-between">
+    <div className="w-[390px] h-[34px] gap-[10px] lg:w-[1440px] lg:h-[38px] bg-black flex items-center justify-center">
 
             
             {/* For Text */}

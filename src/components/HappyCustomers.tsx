@@ -7,7 +7,7 @@ import Image from "next/image"
 
 const HappyCustomers = () => {
   return (
-    <div >
+    <div className="">
 
             <div className="flex justify-between items-center">
 

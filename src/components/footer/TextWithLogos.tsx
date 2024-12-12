@@ -1,5 +1,4 @@
 
-import { BiLogoFacebook } from "react-icons/bi"
 import { CgFacebook } from "react-icons/cg"
 import {FaGithub, FaInstagram, FaTwitter } from "react-icons/fa"
 

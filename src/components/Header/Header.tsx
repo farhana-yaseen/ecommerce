@@ -2,6 +2,8 @@ import Image from "next/image"
 import HeaderLinks from "./HeaderLinks"
 import Search from "./Search"
 import Hamburger from "../hamburger"
+import Link from "next/link"
+
 
 
 const Header = () => {
@@ -12,7 +14,7 @@ const Header = () => {
         <Hamburger/>
     </div>
     
-    <div className='w-[1240px] h-[41px] mt-[62px] ml-[100px] lg:gap-10 items-center justify-center lg:flex xs:hidden'>
+    <div className='w-[1240px] h-[41px] mt-[62px] ml-[100px] lg:gap-10 items-center justify-center lg:flex hidden md:block'>
 
 
             <div className='w-40 h-[22px]'>
@@ -33,7 +35,9 @@ const Header = () => {
             <div className="w-[52px] h-6 gap-3.5 flex justify-between items-center">
                 <div className="w-6 h-6">
                     {/* cart  */}
+                    <Link href={"/cart"}>
                     <Image src={"/header/cart.png"} alt="cart" width={22.13} height={20.25} className="top-[1.88px]"></Image>
+                    </Link>
                    
                 </div>
 
@@ -44,7 +48,7 @@ const Header = () => {
         </div>
        
 </div>
-      
+     
     </div>
   )
 }

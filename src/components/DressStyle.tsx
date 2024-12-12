@@ -3,7 +3,7 @@ import MobileDressStyle from "./MonbileDressStyle"
 
 const DressStyle = () => {
   return (
-    <div>
+    <div className="py-10">
       <div className="md:hidden">
         <MobileDressStyle/>
       </div>

@@ -25,7 +25,7 @@ const Courage = () => {
                     </div>
                     <div className="w-[30px] h-4 lg:w-[35px] lg:h-[19px]">
                         {/* rate */}
-                        <h1 className="font-figtree font-normal text-sm leading-[16.2px] lg:leading-[18.9px]">4.<span>0</span>/<span>5</span></h1>
+                        <h1 className="font-figtree font-normal text-sm leading-[16.2px] lg:leading-[18.9px]">4.<span>0</span>/<span className="opacity-60">5</span></h1>
                     </div>
                 </div>
                 {/* price */}

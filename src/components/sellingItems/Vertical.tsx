@@ -6,7 +6,7 @@ const Vertical = () => {
     return (
         <div className="">
             {/* Striped Shirt */}
-            <div className="w-[198px] h-[20.01px] top-[1720px] ml-4 lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg bg-red-500 rounded-[13.42px] lg:rounded-[20px] lg:mt-20 m-auto ">
+            <div className="w-[198px] h-[20.01px] top-[1720px] ml-4 lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px] lg:mt-20 m-auto ">
                 <Image src={"/selling/vertical.png"} alt="Striped Shirt" width={296} height={444} className="w-[198.67px] h-[298px] top-[-49px] -[left-0.67px] lg:w-full lg:h-full lg:mt-[-73px] lg:left-[-1px]  object-cover lg:rounded-[20px]"></Image>
             </div>
             <div className="flex flex-col gap-1 lg:gap-2">
@@ -27,7 +27,7 @@ const Vertical = () => {
                     <div className="w-[30px] h-4 lg:w-[34px] lg:h-[19px]">
                         {/* rate */}
 
-                        <h1 className="font-figtree font-normal text-xs lg:text-sm leading-[16.2px] lg:leading-[18.9px]">5<span>.0</span>/<span>5</span></h1>
+                        <h1 className="font-figtree font-normal text-xs lg:text-sm leading-[16.2px] lg:leading-[18.9px]">5<span>.0</span>/<span className="opacity-60">5</span></h1>
                     </div>
 
                 </div>

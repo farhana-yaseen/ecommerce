@@ -18,6 +18,8 @@ const config: Config = {
         starColor: "#FFC633",
         paymentLogo:"#D6DCE5",
         discountRate:"#FF3333",
+        productbg:"#F3F1EF",
+        productbg3:"#F4F1F4",
       },
 
       boxShadow:{

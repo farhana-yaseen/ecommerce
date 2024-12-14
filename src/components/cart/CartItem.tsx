@@ -5,14 +5,14 @@ import Link from "next/link"
 
 const CartItem = () => {
   return (
-    <div className="w-[89px] h-[19px] top-[118px] left-4 gap-[1.5] lg:w-[106px] lg:h-[22px] lg:top-[158px] lg:left-[100px] lg:gap-3 flex justify-between items-center">
+    <div className="w-[89px] h-[19px] top-[118px] left-4 gap-1.5 lg:w-[106px] lg:h-[22px] lg:top-[158px] lg:left-[100px] lg:gap-3 flex justify-between items-center">
 
         <div className="w-14 h-3.5 gap-1 lg:w-[63px] lg:h-4 flex justify-center items-center">
             {/* Navbar */}
             <div className="w-[43px] h-[11px] lg:w-[38px] lg:h-[10px] flex items-center justify-center">
                 {/* Home */}
                 <Link href={"/"}>
-                <h1 className="font-figtree font-normal text-sm lg:text-base leading-[18.9px] lg:leading-[21.6]">Home</h1>
+                <h1 className="font-figtree font-normal text-sm lg:text-base leading-[18.9px] lg:leading-[21.6] opacity-60">Home</h1>
                 </Link>
             </div> 
 

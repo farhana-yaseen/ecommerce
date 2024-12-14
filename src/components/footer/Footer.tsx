@@ -1,4 +1,4 @@
-import LatestOffer from "../LatestOffer"
+import LatestOffer from "./LatestOffer"
 import FooterAllText from "./FooterAllText"
 import PaymentLogo from "./PaymentLogo"
 

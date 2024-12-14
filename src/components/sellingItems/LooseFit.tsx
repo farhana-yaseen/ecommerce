@@ -24,7 +24,7 @@ const LooseFit = () => {
                     </div>
                     <div className="w-[34px] h-[19px]">
                         {/* rate */}
-                        <h1 className="font-figtree font-normal text-sm leading-[18.9px]">3.0<span className="font-figtree font-normal text-sm leading-[18.9px]"></span>/<span className="font-figtree font-normal text-sm leading-[18.9px]">5</span></h1>
+                        <h1 className="font-figtree font-normal text-sm leading-[18.9px]">3.0<span className="font-figtree font-normal text-sm leading-[18.9px]"></span>/<span className="font-figtree font-normal text-sm leading-[18.9px] opacity-60">5</span></h1>
                     </div>
                 </div>
                 {/* price */}

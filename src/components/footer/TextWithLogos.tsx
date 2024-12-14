@@ -4,15 +4,15 @@ import {FaGithub, FaInstagram, FaTwitter } from "react-icons/fa"
 
 const TextWithLogos = () => {
   return (
-    <div>
+    <div className="lg:w-[248px] lg:h-[177px] bg-">
         {/* Text */}
-        <div className="lg:w-[248px] lg:h-[114px] flex flex-col justify-start gap-6 lg:gap-[25px] py-6">  
+        <div className="lg:w-[248px] lg:h-[114px] flex flex-col justify-start gap-6 lg:gap-[25px]">  
             <h1 className="w-[144px] h-5 top-[3804.58px] left-4 lg:w-[167px] lg:h-[23px] font-fjalla font-bold text-[28.85px] lg:text-[33.45px] leading-[34.62px] lg:leading-[40.15px]">SHOP.CO</h1>
             <h1 className="w-[357px] h-10 top-[3838.58px] left-[17px] lg:w-[248px] lg:h-[66px] font-figtree font-normal text-sm leading-[22px] opacity-60">We have clothes that suits your style and which you’re proud to wear. From women to men.</h1>
         </div>
 
         {/* Logos */}
-        <div className="w-[148px] h-7 top-[3898.58px] left-4 flex justify-center items-center gap-2 lg:gap-3 py-12">
+        <div className="w-[148px] h-7 top-[3898.58px] left-4 flex justify-center items-center gap-2 lg:gap-3 lg:mt-3"> 
             {/* Social */}
             <div className="w-7 h-7 top-[3898.58px] left-4 lg:top-[149px] border-[1px] border-opacity-20 rounded-full bg-white flex justify-center items-center">
                 {/* Twitter */}

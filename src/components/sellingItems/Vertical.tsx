@@ -6,10 +6,10 @@ const Vertical = () => {
     return (
         <div className="">
             {/* Striped Shirt */}
-            <div className="w-[198px] h-[20.01px] top-[1720px] ml-4 lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px] lg:mt-20 m-auto ">
-                <Image src={"/selling/vertical.png"} alt="Striped Shirt" width={296} height={444} className="w-[198.67px] h-[298px] top-[-49px] -[left-0.67px] lg:w-full lg:h-full lg:mt-[-73px] lg:left-[-1px]  object-cover lg:rounded-[20px]"></Image>
+            <div className="w-[198px] h-[200.01px] top-[1720px] ml-4 lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px] lg:mt-20 m-auto ">
+                <Image src={"/selling/vertical.png"} alt="Striped Shirt" width={296} height={444} className="w-[198.67px] h-[298px] top-[-49px] -[left-0.67px] lg:w-full lg:h-full lg:mt-[-73px] lg:left-[-1px]  object-contain lg:rounded-[20px]"></Image>
             </div>
-            <div className="flex flex-col gap-1 lg:gap-2">
+            <div className="flex flex-col gap-1 lg:gap-2 py-12 lg:py-0">
                 <div className="w-[170px] h-[22px] top-[1930.01px] ml-4 lg:w-[200px] lg:h-[27px] lg:top-[2155px] lg:left-[100px]">
                     <h1 className="font-figtree font-bold text-base lg:text-xl leading-[21.6px] lg:leading-[27px]">V<span className="lowercase">ERTICAL</span><span className="capitalize"> striped shirt</span></h1>
                 </div>

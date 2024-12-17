@@ -12,7 +12,7 @@ const GradiantGraphicTShirt = () => {
             </div>
 
             <div className="w-[192px] h-[22px] top-[394px] left-4 lg:w-[240px] lg:h-[27px] lg:top-[577px] lg:left-[415px]">
-                <h1 className="font-figtree font-bold text-base lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Gradient Graphic T-short</h1>
+                <h1 className="font-figtree font-bold text-sm lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Gradient Graphic T-short</h1>
             </div>
 
 

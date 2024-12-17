@@ -12,7 +12,7 @@ const JeansFit = () => {
                     </div>
         
                     <div className="w-[120px] h-[22px] top-[675px] left-[202px] lg:w-[161px] lg:h-[27px] lg:top-[1021px] lg:left-[731px]">
-                        <h1 className="font-figtree font-bold text-base lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Skinny Fit Jeans</h1>
+                        <h1 className="font-figtree font-bold text-sm lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Skinny Fit Jeans</h1>
                     </div>
         
         

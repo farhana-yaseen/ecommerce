@@ -6,7 +6,7 @@ const hamburger = () => {
     return (
         <div>
 
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center gap-28">
                 <div className="flex justify-start items-center gap-1">
                     <div className="w-6 h-6">
                         {/* hamburger  */}

@@ -11,7 +11,7 @@ import UserReview from "./UserReview"
 
 const DetailOfProduct = () => {
   return (
-    <div className="w-[390px] h-[3553px] left-[3550px] lg:w-[1440px] lg:h-[3066px] lg:left-[2070px] flex flex-col gap-5 m-auto">
+    <div className="w-[390px] left-[3550px] lg:w-[1440px] lg:left-[2070px] flex flex-col gap-5 m-auto">
 
       <Nav/>
       <div className="lg:flex justify-center gap-10 items-start lg:mt-12">

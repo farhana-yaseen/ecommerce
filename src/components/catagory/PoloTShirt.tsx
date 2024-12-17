@@ -12,7 +12,7 @@ const PoloTShirt = () => {
                     </div>
         
                     <div className="w-[169px] h-[22px] top-[394px] left-[202px] lg:w-[241px] lg:h-[27px] lg:top-[577px] lg:left-[730px]">
-                        <h1 className="font-figtree font-bold text-base lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Polo with Tipping Details</h1>
+                        <h1 className="font-figtree font-bold text-sm lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Polo with Tipping Details</h1>
                     </div>
         
         

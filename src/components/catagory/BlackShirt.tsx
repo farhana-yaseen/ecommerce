@@ -12,7 +12,7 @@ const BlackShirt = () => {
                     </div>
         
                     <div className="w-[150px] h-[22px] top-[375px] left-4 lg:w-[200px] lg:h-[27px] lg:top-[577px] lg:left-[1045px]">
-                        <h1 className="font-figtree font-bold text-base lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Black Striped T-shirt</h1>
+                        <h1 className="font-figtree font-bold text-sm lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">Black Striped T-shirt</h1>
                     </div>
         
         

@@ -1,6 +1,6 @@
 import CatagoryLg from "@/components/catagory/CatagoryLg"
-import Filters from "@/components/catagory/Filters"
 import NavCata from "@/components/catagory/NavbarCata"
+import ProductWithPrice from "@/components/catagory/ProductWithPrice"
 
 
 
@@ -12,7 +12,7 @@ const Catagory = () => {
       <NavCata/>
 
       <div className="lg:hidden">
-        <Filters/>
+      <ProductWithPrice/>
       </div>
       <div className="hidden lg:block">
         <CatagoryLg/>

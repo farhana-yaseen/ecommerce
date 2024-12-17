@@ -11,8 +11,8 @@ const SleeveStript = () => {
                         <Image src={"/arrival/sleeve.png"} alt="checkred shirt" width={268} height={402} layout="responsive" className="w-[172px] h-[213px] lg:w-full lg:h-full top:[-19px] left-[15px] lg:top-[-51px] object-contain"></Image>
                     </div>
         
-                    <div className="w-[120px] h-[22px] top-[675px] left-[202px] lg:w-[161px] lg:h-[27px] lg:top-[1021px] lg:left-[731px]">
-                        <h1 className="font-figtree font-bold text-base lg:text-xl leading-[21.6px] lg:leading-[27px]">Checkered Shirt</h1>
+                    <div className="w-[170px] h-[22px] top-[675px] left-[202px] lg:w-[220px] lg:h-[27px] lg:top-[1021px] lg:left-[731px]">
+                        <h1 className="font-figtree font-bold text-sm lg:text-xl leading-[21.6px] lg:leading-[27px] capitalize">seleeve striped t-shirt</h1>
                     </div>
         
         
@@ -33,10 +33,24 @@ const SleeveStript = () => {
                     </div>
 
         
-                        {/* $180 */}
-                    <div className="w-[51px] h-[27px] lg:w-[61px] lg:h-[32px]">
-                        <h1 className="font-figtree font-bold text-xl leading-[27px]">$180</h1>
-                    </div>   
+                         {/* price */}
+                    <div className="w-[154px] h-[27px] top-[721px] left-[202px] gap-[5px] lg:w-[200px] lg:h-8 lg:top-[1083px] lg:left-[416px] lg:gap-[10px] flex justify-center items-center">
+        
+        {/* $130 */}
+    <div className="w-[51px] h-[27px] lg:w-[61px] lg:h-[32px]">
+        <h1 className="font-figtree font-bold text-xl leading-[27px]">$130</h1>
+    </div>
+
+        {/* $160 */}
+        <div className="w-[51px] h-[27px] lg:w-[55px] lg:h-8">
+            <h1 className="font-figtree font-bold text-xl lg:text-2xl leading-[27px] lg:leading-32.4 line-through text-black opacity-40">$160</h1>
+        </div>
+
+        {/* -30% */}
+        <div className="w-[42px] h-5 rounded-[62px] px-3.5 py-1.5 gap-3 lg:w-[61px] lg:h-7 bg-percentage bg-opacity-10">
+            <h1 className="w-[26px] h-3.5 lg:w-[58px] lg:4 font-figtree font-medium text-[10px] lg:text-xs leading-[13.5px] text-percentage ">-30%</h1>
+        </div>
+    </div>   
         
                 </div>
     )

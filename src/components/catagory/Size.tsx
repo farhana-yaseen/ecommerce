@@ -71,7 +71,7 @@ const Size = () => {
             </div>
 
             {/* line */}
-            <div className="w-[353px] top-[786px] left-[19px] lg:w-[247px] border-[1px] border-black opacity-10 my-10"></div>
+            <div className="w-[353px] top-[786px] left-[19px] lg:w-[247px] border-[1px] border-black opacity-10 mt-10"></div>
 
         </div>
     )

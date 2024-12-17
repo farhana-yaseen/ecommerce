@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const LatestOffer = () => {
     return (
-        <div className="w-[358px] h-[293px] top-[3480px] left-4 rounded-[20px] lg:w-[1240px] lg:h-[180px] lg:top-[3781px] lg:left-[100px] lg:px-16 lg:py-9 bg-black m-auto lg:flex lg:justify-between lg:items-center space-y-10 lg:space-y-4">
+        <div className="w-[358px] h-[293px] top-[3480px] ml-4 rounded-[20px] lg:w-[1240px] lg:h-[180px] lg:top-[3781px] lg:left-[100px] lg:px-16 lg:py-9 bg-black m-auto lg:flex lg:justify-between lg:items-center space-y-10 lg:space-y-4">
             
             <div className='w-[297px] h-[105px] top-8 ml-6 lg:w-[551px] lg:h-[94px] py-5 lg:py-1'>
             <h1 className="text-fjalla font-figtree font-bold text-[32px] leading-[35px] lg:text-[40px] lg:leading-[45px] text-white ">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>

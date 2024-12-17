@@ -5,8 +5,8 @@ import PaymentLogo from "./PaymentLogo"
 
 const Footer = () => {
   return (
-    <div className="lg:w-[1441px] lg:h-[589px] lg:top-[3781px] pt-10">
-      <div className="w-[392px] h-[846px] top-[3615px] left-[-1px] lg:w-[1441px] lg:h-[499px] lg:top-[3871px] lg:left-[-1px] bg-searchColor flex flex-col justify-between">
+    <div className="lg:w-[1441px] lg:h-[589px] lg:top-[3781px] m-auto">
+      <div className="w-[392px] h-[846px] top-[3615px] ml-[1px] lg:w-[1441px] lg:h-[499px] lg:top-[3871px] lg:left-[-1px] bg-searchColor flex flex-col justify-between">
 
         <div>
           <LatestOffer />

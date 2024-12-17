@@ -2,7 +2,7 @@
 
 const ChooseSize = () => {
     return (
-        <div className="w-[353px] h-[65px] top-[947px] left-4 flex flex-col gap-4 lg:gap-6">
+        <div className="w-[353px] h-[65px] top-[947px] left-4 flex flex-col gap-4 lg:gap-6 py-5">
                 
                 {/* Heading */}
                 <div className="w-[80px] h-2.5 ml-4 lg:w-[87px] lg:h-[11px] lg:top-[573px] lg:left-[750px] opacity-60">
@@ -31,8 +31,8 @@ const ChooseSize = () => {
                 <div className="w-[89px] h-[39px] rounded-[62px] px-5 py-2.5 gap-3 bg-searchColor lg:w-[104px] lg:h-[46px] lg:px-6 lg:py-3">
                     <h1 className="w-[49px] h-[19px] lg:w-[56px] lg:h-[22px] font-figtree font-normal text-[14px] lg:text-base leading-[18.9px] lg:leading-[21.6px] opacity-60">X-Lage</h1>
                 </div>
-
             </div>
+
 
              {/* line */}
              <div className="w-[358px] top-[1036px] ml-4 border-[1px] border-black opacity-10 lg:w-[590px] lg:top-[670px] lg:left-[750px]"></div>

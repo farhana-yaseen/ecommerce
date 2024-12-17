@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Navbar = () => {
   return (
-    <div className="w-[215px] h-[19px] top-[118px] left-4 gap-1.5 lg:w-[259 px] lg:h-[22px] lg:top-[158px] lg:left-[100px] lg:gap-3 flex justify-between items-center">
+    <div className="w-[215px] h-[19px] top-[118px] ml-4 gap-1.5 lg:w-[259px] lg:h-[22px] lg:top-[158px] lg:left-[100px] lg:gap-3 flex justify-center items-center lg:mt-12">
 
         {/* Home */}
         <div className="w-14 h-3.5 gap-1 lg:w-[63px] lg:h-4 flex justify-center items-center">
@@ -54,9 +54,9 @@ const Navbar = () => {
             </div>
         </div>
 
-        <div className="w-[45px] h-[19px] lg:w-[52px] lg:h-[22px]">
+        <div className="w-[45px] h-[19px] lg:w-[60px] lg:h-[22px]">
                 {/* T-Shirt */}
-                <h1 className="font-figtree font-normal text-sm lg:text-base leading-[18.9px] lg:leading-[21.6px]">T-Shirtx</h1>
+                <h1 className="font-figtree font-normal text-sm lg:text-base leading-[18.9px] lg:leading-[21.6px]">T-Shirt</h1>
   
             </div>
 

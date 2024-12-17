@@ -3,11 +3,11 @@ import MobileDressStyle from "./MonbileDressStyle"
 
 const DressStyle = () => {
   return (
-    <div className="py-10">
+    <div className="mb-10">
       <div className="md:hidden">
         <MobileDressStyle/>
       </div>
-      <div className="hidden md:block w-[1239px] h-[866px] top-[2417px] left-[100px] rounded-[40px] bg-searchColor m-auto">
+      <div className="hidden lg:block w-[1239px] h-[866px] top-[2417px] ml-[100px] rounded-[40px] bg-searchColor">
       <div>
        <h1 className="w-[687px] h-[58px] top-[70px] ml-[276px] font-fjalla font-bold text-5xl leading-[57.6px] text-center pt-10">BROWSE BY DRESS STYLE</h1>
       </div>

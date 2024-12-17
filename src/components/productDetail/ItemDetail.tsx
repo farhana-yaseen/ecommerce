@@ -1,10 +1,13 @@
 import { BsStarFill, BsStarHalf } from "react-icons/bs"
+import SelectColor from "./SelectColor"
+import ChooseSize from "./ChooseSize"
+import AddToCart from "./AddToCart"
 
 
 const ItemDetail = () => {
     return (
         <div>
-            <div className="flex flex-col gap-1 lg:gap-4">
+            <div className="flex flex-col gap-4 lg:gap-6 m-auto mt-10 lg:mt-0">
         
                 <div className="w-[267px] h-[56px] top-[585px] ml-4 lg:w-[600px] lg:h-[48px] lg:top-[216px] lg:left-[750px]">
                     <h1 className="font-fjalla font-bold text-[28px] lg:text-[40px] leading-[28px] lg:leading-[48px] uppercase">One Life Graphic T-shirt</h1>
@@ -44,21 +47,21 @@ const ItemDetail = () => {
                     <div className="w-[62px] h-[31px] lg:w-[72px] lg:h-[34px] lg:top-[321px] lg:left-[938px] rounded-[62px] px-3 py-1.5 bg-percentage bg-opacity-10">
                         <h1 className="w-[38px] h-[19px] lg:w-[44px] lg:h-[22px] font-figtree font-medium text-sm lg:text-base leading-[18.9px] lg:leading-[21.6px] text-percentage">-40%</h1>
                     </div>
+
                 </div>
-
-
             {/* Text */}
             <div className="w-[358px] h-[50px] top-[736px] ml-4 lg:w-[590px] lg:h-[33px] lg:top-[380px] lg:left-[750px] opacity-60">
                 <h1 className="font-figtree font-normal text-sm lg:text-base leading-[16.2px] lg:leading-[18.9px]">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</h1>
             </div>
-            </div>
         
 
             {/* line */}
-            <div className="w-[358px] top-[810px] left-4 border-[1px] lg:w-[590px] lg:top-[549px] lg:left-[750px] opacity-10"></div>
+            <div className="w-[358px] top-[810px] left-4 border-[1px] border-black lg:w-[590px] lg:top-[549px] lg:left-[750px] opacity-10"></div>
 
-
-
+            <SelectColor/>
+            <ChooseSize/>
+            <AddToCart/>
+            </div>
         </div>
     )
 }

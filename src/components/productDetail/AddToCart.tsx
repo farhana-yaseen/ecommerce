@@ -2,6 +2,7 @@ import Image from "next/image"
 
 const AddToCart = () => {
     return (
+        <div className="py-12 lg:py-16">
         <div className="flex justify-start gap-4">
 
             <div className="w-[110px] h-[44px] top-[1060px] ml-4 lg:w-[170px] lg:h-[52px] lg:top-[694px] lg:left-[750px] rounded-[62px] px-4 py-3 gap-4 lg:px-5 lg:py-4 bg-searchColor flex justify-center items-center">
@@ -33,21 +34,7 @@ const AddToCart = () => {
                 {/* Text */}
                 <h1 className="w-[74px] h-[19px] lg:w-[85px] lg:h-[22px] font-figtree font-medium text-sm lg:text-base leading-[18.9px] lg:leading-[21.6px] text-white">Add to Cart</h1>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </div>
 
         </div>
     )

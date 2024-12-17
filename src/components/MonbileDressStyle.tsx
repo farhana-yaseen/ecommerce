@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const MobileDressStyle = () => {
   return (
-    <div className="w-[358px] h-[975px] top-[2123px] left-4 rounded-[20px] bg-searchColor m-auto">
+    <div className="w-[358px] h-[975px] top-[2123px] ml-4 rounded-[20px] bg-searchColor">
       <div>
        <h1 className="w-[246px] h-[27px] mt-10 ml-[56px] font-fjalla font-bold text-[32px] leading-[36px] text-center pt-5">BROWSE BY DRESS STYLE</h1>
       </div>

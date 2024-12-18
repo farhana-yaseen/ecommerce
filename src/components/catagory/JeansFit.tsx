@@ -8,7 +8,7 @@ const JeansFit = () => {
         
                     {/* Image */}
                     <div className="w-[172px] h-[174px] top-[491px] left-[202px] rounded-[13.42px] bg-newArravialbg lg:w-[295px] lg:h-[298px] lg:top-[707px] lg:left-[416px] lg:rounded-[20px] overflow-hidden">
-                        <Image src={"/arrival/jeans.png"} alt="Jeans" width={268} height={402} layout="responsive" className="w-[172px] h-[213px] lg:w-full lg:h-full top:[-19px] left-[15px] lg:top-[-51px] left-[14px] object-contain"></Image>
+                        <Image src={"/arrival/jeans.png"} alt="Jeans" width={268} height={402} layout="responsive" className="w-[172px] h-[213px] lg:w-full lg:h-full top:[-19px] left-[15px] lg:top-[-51px] object-contain"></Image>
                     </div>
         
                     <div className="w-[120px] h-[22px] top-[675px] left-[202px] lg:w-[161px] lg:h-[27px] lg:top-[1021px] lg:left-[731px]">

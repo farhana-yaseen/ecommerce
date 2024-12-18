@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const OrderSummary = () => {
     return (
-        <div className="w-[358px] h-[390px] top-[612px] left-4 lg:w-[505px] lg:h-[458px] lg:top-[276px] lg:left-[835px] rounded-[20px] border-[1px] border-opacity-10 p-[20px] lg:py-5 lg:px-6 ">
+        <div className="w-[358px] h-[390px] top-[612px] ml-4 lg:w-[505px] lg:h-[458px] lg:top-[276px] lg:left-[835px] rounded-[20px] border-[1px] border-opacity-10 p-[20px] lg:py-5 lg:px-6 mb-10">
 
             <div className="w-[159px] h-[27px] lg:w-[185px] lg:h-8 mb-3 lg:mb-8">
                 {/* Order Summary */}

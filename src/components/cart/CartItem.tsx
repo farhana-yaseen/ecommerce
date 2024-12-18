@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const CartItem = () => {
   return (
-    <div className="w-[89px] h-[19px] top-[118px] left-4 gap-1.5 lg:w-[106px] lg:h-[22px] lg:top-[158px] lg:left-[100px] lg:gap-3 flex justify-between items-center">
+    <div className="w-[89px] h-[19px] top-[118px] ml-4 gap-1.5 lg:w-[106px] lg:h-[22px] lg:top-[158px] lg:ml-[100px] lg:gap-3 flex justify-between items-center">
 
         <div className="w-14 h-3.5 gap-1 lg:w-[63px] lg:h-4 flex justify-center items-center">
             {/* Navbar */}

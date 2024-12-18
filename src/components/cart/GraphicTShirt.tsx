@@ -4,12 +4,12 @@ import Graphic from "./Graphic"
 const GraphicTShirt = () => {
     return (
         <div>
-        <div className="lg:hidden w-[330px] h-[99px] left-[14px]">
+        <div className="lg:hidden w-[330px] h-[99px] ml-[14px]">
             <div className="flex justify-between items-center">
 
             <div className="w-[99px] h-[99px] rounded-[8.66px]">
                 {/* Image */}
-                <Image src={"/cart/graphic.png"} alt="Graphic T-Shirt" width={99} height={149} className=" w-full h-full top-[-25px] left-[-1px]  object-cover rounded-[8.66px]"></Image>
+                <Image src={"/cart/graphic.png"} alt="Graphic T-Shirt" width={99} height={149} layout="responsive" className=" w-full h-full top-[-25px] left-[-1px]  object-cover rounded-[8.66px]"></Image>
             </div>
 
             <div className="w-[217px] h-[99px]">

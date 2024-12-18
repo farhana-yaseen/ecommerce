@@ -15,7 +15,7 @@ const Jeans = () => {
             </div>
 
             {/* star & price */}
-            <div className="w-[106.09px] h-4 top-[1453.01px] left-[230px] gap-[11px] lg:w-[126.2px] lg:h-[19px] lg:top-[1453px] lg:left-[415px] lg:gap-[13px] flex justify-center items-center">
+            <div className="w-[106.09px] h-4 top-[1453.01px] left-[230px] gap-[11px] lg:w-[126.2px] lg:h-[19px] lg:top-[1453px] lg:left-[415px] lg:gap-[13px] flex justify-start items-center">
                 <div className="w-[87px] h-[15.47px] gap-[4.44px] lg:w-[80.2px] lg:h-[18.49px] lg:gap-[5.31px] flex justify-center items-center">
                     {/* stars */}
                     <BsStarFill className="text-starColor w-[15.47px] h-[15.47px] lg:w-[18.49px] lg:h-[18.49px]" />
@@ -31,7 +31,7 @@ const Jeans = () => {
             </div>
 
             {/* price */}
-            <div className="lg:w-[200px] lg:h-8 top-[1480px] lg:left-[415px] gap-6 lg:gap-[10px] flex justify-center items-center">
+            <div className="lg:w-[200px] lg:h-8 top-[1480px] lg:left-[415px] gap-4 lg:gap-[10px] flex justify-start items-center">
 
                 {/* $240 */}
                 <div className="w-[51px] h-[27px] top-[1473px] left-[230px] lg:w-[61px] lg:h-8">

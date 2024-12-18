@@ -6,7 +6,7 @@ const BrandName = () => {
 
         {/* Versace Logo */}
         <div className='lg:w-[166.48px] lg:h-[33.16px] lg:top-[841px] lg:left-[100px]'>
-        <Image src={"/brandLogo/versace.png"} alt="versace" width={166.45} height={33.16} className="w-[116.74px] h-[23.25px] lg:w-[166.45px] lg:h-[33.16px] top-[991px] left-4 lg:top-[841px] object-contain"></Image>
+        <Image src={"/brandLogo/versace.png"} alt="versace" width={166.45} height={33.16} className="w-[116.74px] h-[23.25px] lg:w-[166.45px] lg:h-[33.16px] top-[991px] ml-4 lg:top-[841px] object-contain"></Image>
         </div>
 
          {/* zara Logo */}

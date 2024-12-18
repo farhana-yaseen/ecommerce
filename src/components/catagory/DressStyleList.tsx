@@ -18,7 +18,7 @@ const DressStyleList = () => {
             </div>
 
 
-            <div className="w-[353px] h-[124px] top-[849px] left-[19px] gap-3 lg:w-[247px] lg:h-[171px] lg:gap-5 flex flex-col justify-between items-center">
+            <div className="w-[353px] h-[124px] top-[849px] left-[19px] gap-3 lg:w-[247px] lg:h-[171px]  flex flex-col justify-center lg:gap-4 items-center">
 
                 {/* Casual */}
                 <div className="w-[353px] h-4 lg:w-[247px]">

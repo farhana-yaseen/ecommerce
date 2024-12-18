@@ -2,7 +2,7 @@
 
 const QualityProduct = () => {
     return (
-        <div className="md:hidden w-[278px] h-[50px] top-[397px] left-14 m-auto">
+        <div className="md:hidden w-[278px] h-[50px] top-[397px] ml-14 m-auto">
             <div className="flex justify-between items-center py-4">
                 {/* 200 */}
                 <div className="w-[106px] h-12">

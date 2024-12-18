@@ -4,12 +4,12 @@ import Checkred from "./Checkred"
 const CheckredShirt = () => {
     return (
         <div>
-        <div className="lg:hidden w-[330px] h-[99px] left-[14px] lg:w-[667px] lg:h-[124px] lg:left-4">
+        <div className="lg:hidden w-[330px] h-[99px] ml-[14px] lg:w-[667px] lg:h-[124px] ml:left-4">
             <div className="flex justify-between items-center">
 
             <div className="w-[99px] h-[99px] rounded-[8.66px] lg:w-[124px] lg:h-[124px]">
                 {/* Image */}
-                <Image src={"/arrival/checkshirt.png"} alt="Checkred Shirt" width={125} height={187} className="w-[99px] h-[149px] lg:w-full lg:h-full top-[-25px] left-[-1px] lg:top-[-30.5px] object-cover lg:object-contain rounded-[8.66px]"></Image>
+                <Image src={"/arrival/checkshirt.png"} alt="Checkred Shirt" width={125} height={187} layout="responsive" className="w-[99px] h-[149px] lg:w-full lg:h-full top-[-25px] left-[-1px] lg:top-[-30.5px] object-cover lg:object-contain rounded-[8.66px]"></Image>
             </div>
 
             <div className="w-[217px] h-[99px] lg:w-[527px] lg:h-[124px] justify-between">

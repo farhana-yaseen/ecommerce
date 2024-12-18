@@ -2,9 +2,9 @@ import Image from "next/image"
 
 const Colors = () => {
     return (
-        <div>
+        <div className="">
             {/* box size */}
-            <div className="lg:w-[247px] lg:h-[137px] lg:gap-5 mb-5">
+            <div className="lg:w-[247px] lg:h-[137px] lg:gap-5">
 
                 {/* text */}
                 <div className="w-[353px] h-[27px] lg:w-[247px] top-[417px]left-[19px]">
@@ -18,7 +18,7 @@ const Colors = () => {
 
                         {/* drowpdown */}
                         <div className='w-4 h-4 opacity-60'>
-                            <Image src={"/header/dropdown.png"} alt="dropdown" width={12} height={7} className=" top-[13.75px] left-[5.25px] object-contain"></Image>
+                            <Image src={"/header/dropdown.png"} alt="dropdown" width={12} height={7} className=" top-[13.75px] left-[5.25px] object-contain rotate-180"></Image>
                         </div>
 
 
@@ -30,7 +30,7 @@ const Colors = () => {
 
 
                 {/* colors */}
-                <div className="lg:w-[247px] lg:h-[90px] lg:gap-4 flex flex-col gap-4">
+                <div className="lg:w-[247px] lg:h-[90px] lg:gap-4 flex flex-col gap-4 mt-2">
 
                     <div className="lg:w-[247px] lg:h-[90px] lg:gap-4">
                         {/* row 1 */}

@@ -13,7 +13,7 @@ const Size = () => {
 
                 {/* drowpdown */}
                 <div className='w-4 h-4 opacity-60'>
-                    <Image src={"/header/dropdown.png"} alt="dropdown" width={12} height={7} className=" top-[13.75px] left-[5.25px] object-contain"></Image>
+                    <Image src={"/header/dropdown.png"} alt="dropdown" width={12} height={7} className=" top-[13.75px] left-[5.25px] object-contain rotate-180"></Image>
                 </div>
             </div>
 
@@ -21,7 +21,7 @@ const Size = () => {
 
 
             {/* buttons/tabs */}
-            <div className="w-[353px] h-[133px] top-[633px] left-[19px] gap-2 lg:gap-3 lg:w-[247px] lg:h-[227px] flex justify-start items-center flex-wrap">
+            <div className="w-[353px] h-[133px] top-[633px] left-[19px] gap-2 lg:gap-3 lg:w-[247px] lg:h-[227px] flex justify-start items-center flex-wrap mt-2">
 
                 {/* xx-small */}
                 <div className="w-[96px] h-[39px] rounded-[62px] px-5 py-2.5 gap-3 bg-searchColor">

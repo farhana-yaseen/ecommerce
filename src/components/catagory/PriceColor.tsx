@@ -17,7 +17,7 @@ const PriceColor = () => {
 
                     {/*  sign */}
                     <div className='hidden lg:block w-6 h-6'>
-                        <Image src={"/header/dropdown.png"} alt="dropdown" width={12} height={7} className=" mt-[10.75px] left-[13.75px] object-contain "></Image>
+                        <Image src={"/header/dropdown.png"} alt="dropdown" width={12} height={7} className=" mt-[10.75px] left-[13.75px] object-contain rotate-180"></Image>
                     </div >
                 </div>
                 </div>

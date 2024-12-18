@@ -4,7 +4,7 @@ import CartItem from "@/components/cart/CartItem"
 
 const Cart = () => {
   return (
-    <div className=" mx-auto">
+    <div>
       <CartItem/>
       <CartDetail/>
     </div>

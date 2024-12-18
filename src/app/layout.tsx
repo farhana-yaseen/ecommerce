@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${figtree.variable} ${fjalla.variable} max-w-[1440px] max-h-[4370px] mx-auto`}
+        className={`${figtree.variable} ${fjalla.variable} max-w-[1440px] max-h-[4370px] m-auto`}
       >
         <TopHeader/>
         <Header/>

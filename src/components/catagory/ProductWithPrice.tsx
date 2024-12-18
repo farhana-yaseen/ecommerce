@@ -13,7 +13,7 @@ import VerticalShirt from "./VerticalShirt"
 
 const ProductWithPrice = () => {
   return (
-    <div className="w-[390px] h-[2140px] left-[5620px] lg:w-[925px]">
+    <div className="w-[390px] h-full left-[5620px] lg:w-[925px]">
 
       <Casual/>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 gap-y-12">
@@ -27,7 +27,12 @@ const ProductWithPrice = () => {
         <CourageShirt/>
         <Bermuda/>
       </div>
+
+       {/* line */}
+       <div className="w-[358px] top-[1053px] left-4 lg:w-[925px] lg:top-[1591px] lg:left[415px] border-[1px] border-black opacity-10 mt-10"></div>
+<div className="my-5 lg:my-10">
       <Count/>
+</div>
 
     </div>
   )

@@ -16,9 +16,8 @@ const Jeans = () => {
 
             {/* star & price */}
             <div className="w-[106.09px] h-4 top-[1453.01px] left-[230px] gap-[11px] lg:w-[126.2px] lg:h-[19px] lg:top-[1453px] lg:left-[415px] lg:gap-[13px] flex justify-start items-center">
-                <div className="w-[87px] h-[15.47px] gap-[4.44px] lg:w-[80.2px] lg:h-[18.49px] lg:gap-[5.31px] flex justify-center items-center">
+                <div className="w-[67px] h-[15.47px] gap-[4.44px] lg:w-[80.2px] lg:h-[18.49px] lg:gap-[5.31px] flex justify-center items-center">
                     {/* stars */}
-                    <BsStarFill className="text-starColor w-[15.47px] h-[15.47px] lg:w-[18.49px] lg:h-[18.49px]" />
                     <BsStarFill className="text-starColor w-[15.47px] h-[15.47px] lg:w-[18.49px] lg:h-[18.49px]" />
                     <BsStarFill className="text-starColor w-[15.47px] h-[15.47px] lg:w-[18.49px] lg:h-[18.49px]" />
                     <BsStarFill className="text-starColor w-[15.47px] h-[15.47px] lg:w-[18.49px] lg:h-[18.49px]" />
@@ -26,7 +25,7 @@ const Jeans = () => {
                 </div>
                 <div className="w-[28px] h-[16px] lg:w-[33px] lg:h-[19px]">
                     {/* rate */}
-                    <h1 className="font-figtree font-normal text-xs lg:text-sm leading-[16.2px] lg:leading-[18.9px]">3<span>.5/</span><span>5</span></h1>
+                    <h1 className="font-figtree font-normal text-xs lg:text-sm leading-[16.2px] lg:leading-[18.9px]">3<span>.5/</span><span className="opacity-60">5</span></h1>
                 </div>
             </div>
 

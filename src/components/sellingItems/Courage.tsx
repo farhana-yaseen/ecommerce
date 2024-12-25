@@ -6,10 +6,10 @@ const Courage = () => {
     return (
         <div>
             {/* Graphic T-Shirt */}
-            <div className="w-[198px] h-[200.01px] top-[1720px] left-[230px] lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px] bg-newArravialbg rounded-[13.42px] lg:rounded-[20px] mt-5 lg:mt-20">
-                <Image src={"/selling/courage.png"} alt="Graphic T-Shirt" width={294} height={441} className="w-[197px] h-[294px] top-[-47px] lg:w-full lg:h-full lg:mt-[-71px] lg:left-[1px]  object-contain lg:rounded-[20px]"></Image>
+            <div className="w-[198px] h-[200.01px] top-[1720px] left-[230px] lg:w-[295px] lg:h-[298px] lg:top-[1841px] lg:left-[100px]">
+                <Image src={"/selling/courage.png"} alt="Graphic T-Shirt" width={294} height={441} layout="responsive" className="w-[197px] h-[294px] top-[-47px] lg:w-full lg:h-full xl:top-[-71px] lg:left-[1px]  object-contain rounded-[13.42px] lg:rounded-[20px]"></Image>
             </div>
-            <div className="flex flex-col gap-1 lg:gap-2 py-12 lg:py-0">
+            <div className="flex flex-col gap-1 lg:gap-2">
                 <div className="w-[186px] h-[22px] top-[1930.01px] left-[230px] lg:w-[240px] lg:h-[27px] lg:top-[2155px] lg:left-[415px]">
                     <h1 className="font-figtree font-bold text-base lg:text-xl leading-[21.6px] lg:leading-[27px]">C<span className="lowercase">OURAGE</span><span className="capitalize"> graphic t-shirt</span></h1>
                 </div>
@@ -25,7 +25,7 @@ const Courage = () => {
                     </div>
                     <div className="w-[30px] h-4 lg:w-[35px] lg:h-[19px]">
                         {/* rate */}
-                        <h1 className="font-figtree font-normal text-sm leading-[16.2px] lg:leading-[18.9px]">4.<span>0</span>/<span className="opacity-60">5</span></h1>
+                        <h1 className="font-figtree font-normal text-xs lg:text-sm leading-[16.2px] lg:leading-[18.9px]">4.<span>0</span>/<span className="opacity-60">5</span></h1>
                     </div>
                 </div>
                 {/* price */}

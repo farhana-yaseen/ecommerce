@@ -9,7 +9,7 @@ import Samantha from "./Samantha"
 const UserReview = () => {
   return (
       
-    <div className="flex flex-col lg:grid grid-cols-2 place-items-center gap-10 lg:gap-16">
+    <div className="flex flex-wrap xl:grid grid-cols-2 place-items-center gap-2 lg:gap-12 xl:gap-16 mt-16">
       <Samantha/>
       <Alex/>
       <Ethan/>

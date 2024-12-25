@@ -4,7 +4,7 @@ import Stars from "./Stars"
 const James = () => {
     return (
 
-        <div className="hidden md:block w-[400px] h-[239.58px] top-[3461px] left-[940px] rounded-[20px] border-[1px] border-opacity-10 px-8 py-7 gap-[342px]">
+        <div className="hidden xl:block w-[400px] h-[239.58px] top-[3461px] left-[940px] rounded-[20px] border-[1px] border-opacity-10 px-8 py-7 gap-[342px]">
 
             <div className="w-[336px] h-[183.58px] justify-between">
                 <div className="w-[336px] h-[183.58px] gap-[15px]">

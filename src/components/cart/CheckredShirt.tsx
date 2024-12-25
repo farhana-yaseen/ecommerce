@@ -4,7 +4,7 @@ import Checkred from "./Checkred"
 const CheckredShirt = () => {
     return (
         <div>
-        <div className="lg:hidden w-[330px] h-[99px] ml-[14px] lg:w-[667px] lg:h-[124px] ml:left-4">
+        <div className="md:hidden w-[330px] h-[99px] ml-[14px] lg:w-[667px] lg:h-[124px] ml:left-4">
             <div className="flex justify-between items-center">
 
             <div className="w-[99px] h-[99px] rounded-[8.66px] lg:w-[124px] lg:h-[124px]">

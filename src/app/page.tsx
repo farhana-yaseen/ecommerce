@@ -1,13 +1,13 @@
 
-import Rectangle2 from "@/components/Rectangle2";
+import Rectangle2 from "@/components/heroSection/Rectangle2";
 import NewArrivals from "@/components/arrivalItems/NewArrivals";
 import TopSelling from "@/components/sellingItems/TopSelling";
-import DressStyle from "@/components/DressStyle";
-import HappyCustomers from "@/components/HappyCustomers";
+import HappyCustomers from "@/components/happyCustomers/HappyCustomers";
+import DressStyle from "@/components/dressStyle/DressStyle";
 
 export default function Home() {
   return (
-    <div className="w-full h-full lg:w-full lg:h-full">
+    <div className="w-[390px] md:w-full xl:w-[1440px] m-auto">
       <Rectangle2 />
       <div className="">
       <NewArrivals/>

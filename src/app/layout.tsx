@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import {Figtree,Fjalla_One} from "next/font/google"
 import "./globals.css";
-import TopHeader from "@/components/TopHeader";
+import TopHeader from "@/components/Header/TopHeader";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/footer/Footer";
 
@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${figtree.variable} ${fjalla.variable} max-w-[1440px] max-h-[4370px] m-auto`}
+        className={`${figtree.variable} ${fjalla.variable}  m-auto`}
       >
         <TopHeader/>
         <Header/>

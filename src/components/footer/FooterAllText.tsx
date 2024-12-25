@@ -8,10 +8,10 @@ import TextWithLogos from "./TextWithLogos"
 
 const FooterAllText = () => {
   return (
-    <div className="lg:w-[1240px] lg:h-[177px] lg:top-[4011px] lg:left-[100px] mx-4 bg ">
-        <div className="flex flex-wrap lg:flex-nowrap justify-start lg:justify-between items-center lg:gap-[35px] gap-1">
+    <div className="xl:w-[1240px] xl:h-[177px] xl:top-[4011px] xl:left-[100px] mx-4 xl:mx-16">
+        <div className="flex flex-wrap md:flex-nowrap justify-start md:justify-between items-center xl:gap-[35px] gap-1">
         {/* Shop.com */}
-        <div className="flex-grow">
+        <div className="flex-grow ">
             <TextWithLogos/>
         </div>
         

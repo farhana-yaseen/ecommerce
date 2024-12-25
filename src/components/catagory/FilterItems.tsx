@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const FilterItems = () => {
     return (
-        <div className="">
+        <div>
             <div className="w-[353px] h-[27px] top-5 left-[19px] lg:w-[247px] lg:h-[27px]  mb-5">
 
                 <div className="flex justify-between items-center">

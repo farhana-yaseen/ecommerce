@@ -3,9 +3,9 @@
 const MiddleNav = () => {
     return (
         <div className="my-10">
-            <div className="flex justify-between gap-4 lg:gap-12">
+            <div className="w-full flex justify-between">
                 {/* Product Detail */}
-                <div className="w-[127px] h-[11px] top-[1154.5px] ml-4 lg:w-[147px] lg:h-3.5 lg:top-[826px] lg:left-[240px] opacity-60">
+                <div className="w-[127px] h-[11px] top-[1154.5px] ml-4 xl:w-[147px] xl:h-3.5 xl:top-[826px] xl:left-[240px] opacity-60">
                     <h1 className="font-figtree font-bold text-base lg:text-xl leading-[22px]">Product Details</h1>
                 </div>
 

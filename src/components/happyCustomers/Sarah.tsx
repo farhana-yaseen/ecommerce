@@ -4,7 +4,7 @@ import Stars from "./Stars"
 const Sarah = () => {
     return (
 
-        <div className="w-[358px] h-[186.19px] top-[3244px] ml-20 p-6 lg:w-[400px] lg:h-60 lg:top-[3461px] lg:left-[100px] rounded-[20px]  border-[1px] border-opacity-10 lg:px-8 lg:py-7 lg:gap-[342px]">
+        <div className="w-[358px] h-[186.19px] top-[3244px] ml-4 p-6 lg:w-[400px] lg:h-60 lg:top-[3461px] lg:left-[100px] rounded-[20px]  border-[1px] border-opacity-10 lg:px-8 lg:py-7 lg:gap-[342px]">
 
             <div className="w-[310px] h-[138.19px] lg:w-[336px] lg:h-[161.58px]">
                 <div className="w-[310px] h-[138.19px] gap-3 lg:w-[336px] lg:h-[161.58px] lg:gap-[15px]">

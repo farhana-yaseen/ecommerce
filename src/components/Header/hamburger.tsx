@@ -39,7 +39,7 @@ const hamburger = () => {
             </div>
 
             {/* line */}
-            <div className="w-[358px] top-[98px] left-4 lg:w-[1240px] lg:top-[134px] lg:left-[100px] border-[1px] border-opacity-10 mx-auto mt-2"></div>
+            {/* <div className="w-[358px] top-[98px] left-4 md:w-[700px] md:mt-10 lg:w-[1240px] lg:top-[134px] lg:left-[100px] border-[1px] border-opacity-10 mx-auto mt-2"></div> */}
 
         </div>
     )

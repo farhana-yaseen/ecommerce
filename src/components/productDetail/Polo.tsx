@@ -4,7 +4,7 @@ import { BsStarFill } from "react-icons/bs"
 
 const Polo = () => {
     return (
-        <div className="flex flex-col justify-between gap-1 lg:gap-2 ml-4">
+        <div className="flex flex-col justify-between gap-1 lg:gap-2">
 
             {/* Image */}
             <div className="w-[198px] h-[200px] top-[2239px] left-4 rounded-[13.42px] bg-newArravialbg lg:w-[295px] lg:h-[298px] lg:top-[1991px] lg:left-[415px] lg:rounded-[20px] overflow-hidden">

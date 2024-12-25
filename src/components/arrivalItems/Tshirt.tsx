@@ -26,7 +26,7 @@ const Tshirt = () => {
                     </div>
                     <div className="w-[29px] h-4 lg:w-[34px] lg:h-[19px]">
                         {/* rate */}
-                        <h1 className="font-figtree font-normal text-xs lg:text-sm leading-[16.2px] lg:leading-[18.9px]">5.<span>0</span>/5</h1>
+                        <h1 className="font-figtree font-normal text-xs lg:text-sm leading-[16.2px] lg:leading-[18.9px]">4.5/<span className="opacity-60">5</span></h1>
                     </div>
                 </div>
                 {/* price */}

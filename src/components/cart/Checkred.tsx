@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Checkred = () => {
     return (
-        <div className="hidden lg:block w-[667px] h-[124px] left-4">
+        <div className="hidden md:block w-[667px] h-[124px] left-4">
 
 
             <div className="flex justify-between items-center gap-4">
@@ -19,7 +19,7 @@ const Checkred = () => {
                     {/* two one */}
                     <div className="w-[151px] h-[118px]">
                         {/* size & color */}
-                        <div className="w-[151px] lg:h-[71px] flex flex-col gap-1">
+                        <div className="w-[151px] h-[71px] flex flex-col gap-1">
                             {/* Text */}
                             <h1 className="w-[151px] h-[27px] font-figtree font-bold text-[20px] leading-[27px]">Checkred Shirt</h1>
 
@@ -28,9 +28,9 @@ const Checkred = () => {
                                 <h1 className="w-[78px] h-[19px] font-figtree font-normal text-sm leading-[18.19px]">Color: <span className="opacity-60"> Red</span></h1>
                             </div>
 
-                            <div className="w-[54px] h-[27px] lg:h-8">
+                            <div className="w-[54px] h-8">
                                 {/* Price */}
-                                <h1 className="font-figtree font-bold text-xl lg:text-2xl leading-  [32.4px]">$180</h1>
+                                <h1 className="font-figtree font-bold text-xl md:text-2xl leading-  [32.4px]">$180</h1>
                             </div>
 
                         </div>
@@ -51,7 +51,7 @@ const Checkred = () => {
                         {/* Quantity */}
 
                         {/* Minus */}
-                        <div className="lg:w-5 h-5">
+                        <div className="w-5 h-5">
                             <div className="mt-[9.06px] left-[2.19px]">
                                 <Image src={"/cart/minus.png"} alt="Minus" width={16} height={2} className="w-[15.63px] h-[1.88px] object-contain"></Image>
                             </div>
@@ -60,9 +60,9 @@ const Checkred = () => {
                         <h1 className="w-[6px] h-[19px] font-figtree font-medium text-sm leading-[18.9px]">1</h1>
 
                         {/* Plus */}
-                        <div className="w-5 lg:h-5">
+                        <div className="w-5 h-5">
                             <div className="top-[2.19px] left-[2.19px]">
-                                <Image src={"/cart/plus.png"} alt="plus" width={16} height={16} className="lg:w-full lg:h-full object-contain"></Image>
+                                <Image src={"/cart/plus.png"} alt="plus" width={16} height={16} className="w-full h-full object-contain"></Image>
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ const Checkred = () => {
 
 
             {/* line */}
-            <div className="w-[330px] lg:w-[667px] border-[1px] border-opacity-10 mx-auto mt-6"></div>
+            <div className="w-[330px] md:w-[667px] border-[1px] border-opacity-10 mx-auto mt-6"></div>
         </div>
     )
 }

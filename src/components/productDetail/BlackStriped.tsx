@@ -4,7 +4,7 @@ import { BsStarFill} from "react-icons/bs"
 
 const BlackStriped = () => {
     return (
-        <div className="hidden lg:block">
+        <div className="hidden xl:block">
         <div className="flex flex-col justify-between gap-1 lg:gap-2 ml-4">
 
             {/* Image */}

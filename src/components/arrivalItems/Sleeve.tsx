@@ -4,7 +4,7 @@ import { BsStarHalf } from "react-icons/bs";
 
 const CheckShirt = () => {
   return (
-    <div className="hidden lg:block">
+    <div className="hidden xl:block">
          {/* Striped Shirt */}
          <div className="w-[295px] h-[298px] top-[1104px] left-[1045px] bg-newArravialbg rounded-[20px]">
                 <Image src={"/arrival/sleeve.png"} alt="striped T-shirt" width={296} height={444} className="top-[-73px] object-contain rounded-[20px]"></Image>
@@ -26,7 +26,7 @@ const CheckShirt = () => {
                 </div>
                 <div className="w-[33px] h-[19px]">
                     {/* rate */}
-                    <h1 className="font-figtree font-normal text-sm leading-[18.9px]">4.5/<span className="font-figtree font-normal text-sm leading-[18.9px]">5</span></h1>
+                    <h1 className="font-figtree font-normal text-sm leading-[18.9px]">4.5/<span className="opacity-60">5</span></h1>
                 </div>
             </div>
 

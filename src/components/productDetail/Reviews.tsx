@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Reviews = () => {
     return (
-        <div className="flex justify-between items-center gap-14 my-5">
+        <div className="flex justify-between items-center gap-12 my-5">
             <div className="flex gap-1 lg:gap-2">
                 {/* All Reviews */}
                 <div className="w-[114px] h-[27px] top-[1212px] ml-4 lg:w-[135px] lg:h-8 lg:top-[896px] lg:left-[100px]">

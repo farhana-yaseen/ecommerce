@@ -4,7 +4,7 @@ import { BsStarHalf } from "react-icons/bs";
 
 const Faded = () => {
     return (
-        <div className="hidden lg:block">
+        <div className="hidden xl:block">
             {/* Faded Skinny */}
             <div className="w-[295px] h-[298px] top-[1841px] left-[1045px] bg-newArravialbg rounded-[20px]">
                 <Image src={"/selling/faded.png"} alt="Faded Skinny" width={252} height={378} className="lg:w-full lg:h-full top-[-40px] left-[22px] object-contain"></Image>
@@ -26,7 +26,7 @@ const Faded = () => {
                     </div>
                     <div className="w-[33px] h-[19px]">
                         {/* rate */}
-                        <h1 className="font-figtree font-normal text-sm leading-[18.9px]">4.5/<span className="font-figtree font-normal text-sm leading-[18.9px]">5</span></h1>
+                        <h1 className="font-figtree font-normal text-sm leading-[18.9px]">4.5/<span className="opacity-60">5</span></h1>
                     </div>
                 </div>
                 {/* price */}

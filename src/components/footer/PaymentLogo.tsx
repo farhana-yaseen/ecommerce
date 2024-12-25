@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const PaymentLogo = () => {
   return (
-    <div className='flex flex-col lg:flex-row justify-between items-center p-5 lg:mx-16'>
+    <div className='flex flex-col md:flex-row justify-between items-center p-5 md:px-10 xl:px-16 '>
         <div className="w-[269px] h-[19px] top-[4263px] left-[100px]">
             {/* Text */}
             <h1 className="font-figtree font-normal text-sm leading-[18.9px] opacity-60">Shop.co © 2000-2023, All Rights Reserved</h1>

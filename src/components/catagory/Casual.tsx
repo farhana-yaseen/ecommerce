@@ -5,8 +5,8 @@ const Casual = () => {
     return (
         <div>
             {/* Casual */}
-            <div className="flex justify-between items-center mb-5 mx-4">
-                <div className="w-[76px] h-8 top-[149px] left-[100px] lg:w-[101px] lg:h-[43px]  lg:top-[204px] lg:left-[415px]">
+            <div className="w-full flex justify-around items-center my-8">
+                <div className="w-[76px] h-8 top-[149px] left-[100px]  lg:w-[101px] lg:h-[43px]  lg:top-[204px] lg:left-[415px]">
                     <h1 className="font-figtree font-normal text-2xl lg:text-[32px] lg:leading-[43px]">Casual</h1>
                 </div>
 

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const BrandName = () => {
   return (
-    <div className='w-[390px] h-[146px] top-[951px] lg:w-[1440px] lg:h-[122px] lg:top-[797px] bg-black flex flex-wrap justify-around items-center'>
+    <div className='w-[390px] h-[146px] top-[951px] md:w-[768px] md:h-[80px] lg:w-[1024px] lg:h-[100px] xl:w-[1440px] xl:h-[122px] xl:top-[797px] bg-black flex flex-wrap justify-around items-center'>
 
         {/* Versace Logo */}
         <div className='lg:w-[166.48px] lg:h-[33.16px] lg:top-[841px] lg:left-[100px]'>

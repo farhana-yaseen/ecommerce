@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const ProductItem = () => {
     return (
-        <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-6 mt-5 lg:mt-0">
+        <div className="flex flex-col lg:flex-row-reverse justify-center items-center lg:gap-4 xl:gap-6 mt-5 lg:mt-0">
 
             {/* Display Image */}
             <div className="w-[358px] h-[290px] top-[157px] left-4 lg:w-[444px] lg:h-[530px] lg:top-[216px] lg:left-[266px] rounded-[20px] bg-newArravialbg ">

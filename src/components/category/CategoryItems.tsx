@@ -2,7 +2,8 @@ import Image from "next/image"
 import { BsStarFill, BsStarHalf } from "react-icons/bs"
 
 
-const BlackShirt = () => {
+const CategoryItems = () => {
+    
     return (
          <div className="flex flex-col justify-center gap-1 xl:gap-2 ml-4">
         
@@ -58,4 +59,4 @@ const BlackShirt = () => {
     )
 }
 
-export default BlackShirt
+export default CategoryItems

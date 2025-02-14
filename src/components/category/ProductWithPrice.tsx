@@ -1,5 +1,5 @@
 import Bermuda from "./Bermuda"
-import BlackShirt from "./BlackShirt"
+import BlackShirt from "./CategoryItems"
 import Casual from "./Casual"
 import Count from "./Count"
 import CourageShirt from "./CourageShirt"

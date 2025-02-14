@@ -4,7 +4,7 @@ import CartItem from "@/components/cart/CartItem"
 
 const Cart = () => {
   return (
-    <div>
+    <div className="w-full h-full">
       <CartItem/>
       <CartDetail/>
     </div>

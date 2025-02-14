@@ -8,7 +8,7 @@ const TopHeader = () => {
             <div className="flex justify-center lg:justify-between items-center gap-[10px]">
 
             {/* For Text */}
-            <div className='w-[301px] h-4 lg:ml-96 lg:w-[351px] lg:h-[19px] mt-[9px] xl:ml-[544px]'>
+            <div className='w-[301px] h-4 lg:ml-96 lg:w-[360px] lg:h-[19px] mt-[9px] xl:ml-[544px]'>
                 <h1 className='font-figtree font-normal text-xs lg:text-sm leading-[16.2px] xl:leading-[18.9px] text-white'>Sign up and get 20% off to your first order. <span className='underline'>Sign Up Now</span></h1>
         </div >
 

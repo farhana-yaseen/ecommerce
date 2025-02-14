@@ -10,7 +10,7 @@ const CartDetail = () => {
                 <h1 className="font-fjalla font-bold text-[32px] lg:text-[40px] leading-[38.4px] lg:leading-[48px]">Your Cart</h1>
             </div>
 
-            <div className="flex flex-wrap items-center justify-center xl:flex-nowrap gap-8 xl:py-12">
+            <div className="flex flex-col items-start justify-center lg:flex-row gap-10 py-2 xl:py-12">
                 <YourCart/>
                 <OrderSummary/>
             </div>

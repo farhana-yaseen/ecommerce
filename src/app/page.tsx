@@ -1,24 +1,33 @@
 
 import Rectangle2 from "@/components/heroSection/Rectangle2";
-import NewArrivals from "@/components/arrivalItems/NewArrivals";
 import TopSelling from "@/components/sellingItems/TopSelling";
 import HappyCustomers from "@/components/happyCustomers/HappyCustomers";
 import DressStyle from "@/components/dressStyle/DressStyle";
+import NewArrivals from "@/components/arrivalItems/NewArrivals";
+import {  getProduct} from "@/helper";
 
-export default function Home() {
+
+
+
+
+export default async function Home() {
+  const products = await getProduct()
+  
+  
   return (
-    <div className="w-[390px] md:w-full xl:w-[1440px] m-auto">
+    <div className="m-auto">
       <Rectangle2 />
-      <div className="">
-      <NewArrivals/>
+      <div>
+      <NewArrivals products={products}/>
       </div>
       <div className="">
-      <TopSelling/>
+      <TopSelling products={products} />
       </div>
       <div className="">
       <DressStyle/>
       </div>
       <HappyCustomers/>
+      
   
     </div>
   );

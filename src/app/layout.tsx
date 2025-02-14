@@ -5,6 +5,7 @@ import "./globals.css";
 import TopHeader from "@/components/Header/TopHeader";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/footer/Footer";
+import Layout from "@/components/Layout";
 
 const figtree = Figtree({
   subsets: ["latin"],
@@ -45,12 +46,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${figtree.variable} ${fjalla.variable}  m-auto`}
+        className={`${figtree.variable} ${fjalla.variable}  m-auto w-[390px] h-full xl:w-[1440px] lg:h-full md:w-full `}
       >
+        <Layout>
         <TopHeader/>
         <Header/>
         {children}
         <Footer/>
+        </Layout>
       </body>
     </html>
   );

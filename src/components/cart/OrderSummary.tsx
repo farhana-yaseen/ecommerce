@@ -1,6 +1,18 @@
+"use client"
+import { useCart } from "@/CartContextProvider";
+import { loadStripe } from "@stripe/stripe-js";
 import Image from "next/image"
+import Checkout from "@/components/cart/Checkout";
+import { Elements } from "@stripe/react-stripe-js";
 
 const OrderSummary = () => {
+
+    const { totalPrice, discount, grandTotal } = useCart();
+
+    // stripe
+    const amount = grandTotal
+    const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!)
+
     return (
         <div className="w-[358px] h-[390px] top-[612px] ml-4  md:w-[505px] md:h-[458px] md:top-[276px] md:left-[835px] rounded-[20px] border-[1px] border-opacity-10 p-[20px] md:py-5 md:px-6 mb-10">
 
@@ -13,19 +25,19 @@ const OrderSummary = () => {
                 {/* Subtotal */}
                 <div className="w-[318px] h-[22px] md:w-[457px] md:h-[27px] flex justify-between items-center">
                     <h1 className="w-[58px] h-[22px] md:w-[72px] md:h-[27px] font-figtree font-normal text-base md:text-xl leading-[21.6px] md:leading-[27px] opacity-60">Subtotal</h1>
-                    <h1 className="w-[39px] h-[22px] md:w-[49px] md:h-[27px] font-figtree font-bold text-base md:text-xl leading-[21.6px] md:leading-[27px]">$565</h1>
+                    <h1 className="w-[39px] h-[22px] md:w-[49px] md:h-[27px] font-figtree font-bold text-base md:text-xl leading-[21.6px] md:leading-[27px]">${totalPrice}</h1>
                 </div>
 
                 {/* Discount */}
                 <div className="w-[318px] h-[22px] md:w-[457px] md:h-[27px] flex justify-between items-center">
-                    <h1 className="w-[115px] h-[22px] md:w-[147px] md:h-[27px] font-figtree font-normal text-base md:text-xl leading-[21.6px] md:leading-[27px] opacity-60">Discount (-20%)</h1>
-                    <h1 className="w-[39px] h-[22px] md:w-[48px] md:h-[27px] font-figtree font-bold text-base md:text-xl leading-[21.6px] md:leading-[27px] text-discountRate">-$113</h1>
+                    <h1 className="w-[115px] h-[22px] md:w-[150px] md:h-[27px] font-figtree font-normal text-base md:text-xl leading-[21.6px] md:leading-[27px] opacity-60">Discount (-20%)</h1>
+                    <h1 className="w-[39px] h-[22px] md:w-[48px] md:h-[27px] font-figtree font-bold text-base md:text-xl leading-[21.6px] md:leading-[27px] text-discountRate">-{discount}</h1>
                 </div>
 
                 {/* Delivery Fee */}
                 <div className="w-[318px] h-[22px] md:w-[457px] md:h-[27px] flex justify-between items-center">
                     <h1 className="w-[96px] h-[22px] md:w-[120px] md:h-[27px] font-figtree font-normal text-base md:text-xl leading-[21.6px] md:leading-[27px] opacity-60">Delivery Fee</h1>
-                    <h1 className="w-[39px] h-[22px] md:w-[32px] md:h-[27px] font-figtree font-bold text-base md:text-xl leading-[21.6px] md:leading-[27px]">$15</h1>
+                    <h1 className="w-[39px] h-[22px] md:w-[48px] md:h-[27px] font-figtree font-bold text-base md:text-xl leading-[21.6px] md:leading-[27px]">$15</h1>
                 </div>
 
                 {/* line */}
@@ -34,7 +46,7 @@ const OrderSummary = () => {
                 {/* Total */}
                 <div className="w-[318px] h-[22px] md:w-[457px] md:h-[27px] flex justify-between items-center">
                     <h1 className="w-[33px] h-[22px] md:w-[42px] md:h-[27px] font-figtree font-normal text-base md:text-xl leading-[21.6px] md:leading-[27px] opacity-60">Total</h1>
-                    <h1 className="w-[47px] h-[27px] md:w-[56px] md:h-[27px] font-figtree font-bold text-base md:text-2xl leading-[21.6px] md:leading-[32.4px]">-$113</h1>
+                    <h1 className="w-[47px] h-[27px] md:w-[56px] md:h-[27px] font-figtree font-bold text-base md:text-2xl leading-[21.6px] md:leading-[32.4px]">${grandTotal}</h1>
                 </div>
             </div>
 
@@ -50,7 +62,7 @@ const OrderSummary = () => {
                         </div>
 
                         {/* Text Add Promo Code */}
-                        <h1 className="w-[105px] h-[19px] md:w-[120px] md:h-[22px] font-figtree font-normal text-sm md:text-base leading-[18.9px] md:leading-[21.6px] opacity-40">Add promo code</h1>
+                        <h1 className="w-[105px] h-[19px] md:w-[125px] md:h-[22px] font-figtree font-normal text-sm md:text-base leading-[18.9px] md:leading-[21.6px] opacity-40">Add promo code</h1>
                     </div>
 
                     {/* Apply */}
@@ -59,18 +71,18 @@ const OrderSummary = () => {
                     </div>
                 </div>
 
-
                 {/* Go to Checkout */}
-                <div className="w-[358px] h-[54px] md:w-[457px] md:h-[60px] rounded-[62px] px-[54px] py-4 gap-3 bg-black flex items-center justify-center">
-                    {/* Text Go to CheckOut */}
-                    <h1 className="w-[100px] h-[19px] md:w-[114px] md:h-[22px] font-figtree font-medium text-sm md:text-base leading-[18.9px] md:leading-[21.6px] text-white">Go to Checkout</h1>
-                    {/* Arrow Sign */}
-                    <div className="w-5 h-5 md:w-6 md:h-6">
-                        <Image src={"/cart/arrow.png"} alt="arrow" width={15.76} height={18.75} className="w-[13.13px] h-[15.63px] top-[16.56px] left-[2.19px] md:w-full md:h-full md:top-[19.88px] md:left-[2.36px] object-cover"></Image>
-                    </div>
-                </div>
-            </div>
 
+
+                <div>
+                    <Elements stripe={stripePromise} options={{ amount: amount, currency: "usd", mode: "payment" }}>
+                        <Checkout amount={amount} />
+                    </Elements>
+                </div>
+
+                {/* end checkout */}
+
+            </div>
 
         </div>
     )

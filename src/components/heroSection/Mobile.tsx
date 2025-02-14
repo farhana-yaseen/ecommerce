@@ -27,11 +27,11 @@ const Mobile = () => {
         <div>
           <QualityProduct />
         </div>
-        <div>
+        <div className="animate-blink">
       <Image src={"/bigstar.png"} alt="bigstar" width={76} height={76} className="w-[76px] h-[76px] top-[543px] ml-[293px] object-contain absolute"></Image>
     </div>
 
-    <div>
+    <div className="animate-blink">
       <Image src={"/smallstar.png"} alt="star" width={44} height={44} className="w-[44px] h-[44px] top-[640px] ml-[27px] object-contain absolute"></Image>
     </div>
 

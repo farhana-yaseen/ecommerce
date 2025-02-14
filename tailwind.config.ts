@@ -6,8 +6,27 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
+
+      //  star
+      animation: {
+        blink: 'blink 1s infinite', // 1 second blink animation
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': {
+            opacity: '1', // fully visible
+          },
+          '50%': {
+            opacity: '0', // hidden halfway through
+          },
+        },
+      },
+    
+
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -25,14 +44,16 @@ const config: Config = {
       boxShadow:{
         custom:'0px 0.45px 4.48px 0px rgba(183, 183, 183, 0.08)',
       },
-      fontfamily:{
+      fontFamily:{
         "figtree":["var(--font-figtree)"],
         "fjalla":["var(--font-fjalla)"],
       },
-           
-     
+              
     },
+    
   },
+
   plugins: [],
 };
+
 export default config;
